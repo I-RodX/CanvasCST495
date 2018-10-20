@@ -14,6 +14,7 @@
 		6AB2C1DB217BB6C600B4C15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2C1D9217BB6C600B4C15D /* LaunchScreen.storyboard */; };
 		6AB2C1E6217BB6C600B4C15D /* CanvasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2C1E5217BB6C600B4C15D /* CanvasAppTests.swift */; };
 		6AB2C1F1217BB6C700B4C15D /* CanvasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2C1F0217BB6C700B4C15D /* CanvasAppUITests.swift */; };
+		6AB2C1FF217BB70300B4C15D /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2C1FE217BB70300B4C15D /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6AB2C1EC217BB6C700B4C15D /* CanvasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB2C1F0217BB6C700B4C15D /* CanvasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasAppUITests.swift; sourceTree = "<group>"; };
 		6AB2C1F2217BB6C700B4C15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB2C1FE217BB70300B4C15D /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				6AB2C1D7217BB6C600B4C15D /* Assets.xcassets */,
 				6AB2C1D9217BB6C600B4C15D /* LaunchScreen.storyboard */,
 				6AB2C1DC217BB6C600B4C15D /* Info.plist */,
+				6AB2C1FE217BB70300B4C15D /* CanvasViewController.swift */,
 			);
 			path = CanvasApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB2C1D3217BB6C500B4C15D /* ViewController.swift in Sources */,
+				6AB2C1FF217BB70300B4C15D /* CanvasViewController.swift in Sources */,
 				6AB2C1D1217BB6C500B4C15D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
